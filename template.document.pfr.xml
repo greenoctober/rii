@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<DataBlock Key="" FsspTo="" FsspOsp="" OrgAMD="" DivAMD="" Signed="">
+		<Query Key="" DocDate="" SPI="" SPIFio="" SPIPost="" ChSPIFio="" ChSPIPost="" AnsDate="" SearchRegion="">
+			<IP Key="" IPNum="" IPDate="" IPName="" IDType="" IDNum="" IDDate="" IDSubj="" IDSubjName="" IDSum="" IPDebt="" DebtorType="" DebtorName=""
+			    DebtorAdr="" DebtorINN="" DebtorKPP="" DebtorOGRN="" DebtorBirthDate="" DebtorBirthYear="" DebtorBirthPlace="" SPI="" SPIFio=""/>
+			<Data Key="" ActDate="" DebtorName="">
+				<Identification TypeDoc="" SerDoc="" NumDoc="" IssuedDoc="" DateDoc="" CodeDep="" FIODoc=""/>
+				<Address StrAddr=""/>
+				<SvedRab NaimOrg="" AdresJ="" AdresF=""/>
+				<SvedRuc NameRuc="" AddressRuc="" TelRuc="" NameBux="" AddressBux="" TelBux=""/>
+				<SvedDoxod DataDox="" SumDox=""/>
+				<DebtorState State=""/>
+			</Data>
+		</Query>
+		<ExtAnswer Key="" AnswerType="" QueryKey="" IPkey="">
+			<Data Key="" ActDate="" DebtorName="" KindDate="">
+				<Identification TypeDoc="" SerDoc="" NumDoc="" IssuedDoc="" DateDoc="" CodeDep="" FIODoc=""/>
+				<Address StrAddr=""/>
+				<SvedRab NaimOrg="" AdresJ="" AdresF=""/>
+				<SvedRuc NameRuc="" AddressRuc="" TelRuc="" NameBux="" AddressBux="" TelBux=""/>
+				<SvedDoxod DataDox="" SumDox=""/>
+				<DebtorState State=""/>
+			</Data>
+		</ExtAnswer>
+		<Restrictn Key="" RestrictnKey="" DocDate="" SPI="" SPIFio="" SPIPost="" DocNum="" AppOrder="" Reason="" Article="" Part="">
+			<IP Key="" IPNum="" IPDate="" IPName="" IDType="" IDNum="" IDDate="" IDSubj="" IDSubjName="" IDSum="" IPDebt="" DebtorType="" DebtorName=""
+			    DebtorAdr="" DebtorINN="" DebtorKPP="" DebtorOGRN="" DebtorBirthDate="" DebtorBirthYear="" DebtorBirthPlace="" SPI="" SPIFio=""/>
+			<Data Key="" ActDate="" DebtorName="">
+				<Identification TypeDoc="" SerDoc="" NumDoc="" IssuedDoc="" DateDoc="" CodeDep="" FIODoc=""/>
+				<Address StrAddr=""/>
+				<SvedRab NaimOrg="" AdresJ="" AdresF=""/>
+				<SvedRuc NameRuc="" AddressRuc="" TelRuc="" NameBux="" AddressBux="" TelBux=""/>
+				<SvedDoxod DataDox="" SumDox=""/>
+				<DebtorState State=""/>
+			</Data>
+		</Restrictn>
+		<Report Key="" DocDate="" RestrictnKey="" IPKey="" AnswerType="">
+			<!-- Сведения об исполнении постановления об обращении взыскания на доходы-->
+			<Data/>
+		</Report>
+		<ExtDoc Key="" DocDate="" BarCode="" IDType="" IDNum="" IDDate="" IDCopy="" DeloNum="" DeloDate="" Organ="" OrganAdr="" OrganSignPost="" OrganSignFio=""
+				ClaimerType="" ClaimerName="" AktDate="" DebtorType="" DebtorName="" DebtorAdr="" DebtorWorkPl="" DebtorBirthDate="" DebtorBirthPlace=""
+				DebtorINN="" DebtorKPP="" DebtorNo="" SrokDobrPFR="" ClaimerAdr="" IDSubj="" Subj="" IDSum="" Period="" PeriodSum="" Repeat="" NoAccount="">
+			<Data Key="" ActDate="" DebtorName="">
+				<Identification TypeDoc="" SerDoc="" NumDoc="" IssuedDoc="" DateDoc="" CodeDep="" FIODoc=""/>
+				<Address StrAddr=""/>
+				<SvedRab NaimOrg="" AdresJ="" AdresF=""/>
+				<SvedRuc NameRuc="" AddressRuc="" TelRuc="" NameBux="" AddressBux="" TelBux=""/>
+				<SvedDoxod DataDox="" SumDox=""/>
+				<DebtorState State=""/>	
+			</Data>
+			<PayRekv RecpName="" RecpBank="" RecpBIK="" RecpCnt="" RecpINN="" RecpKPP="" OKATO="" KBK="" PokPl="" RekvSum=""/>
+		</ExtDoc>
+		<ProcDoc Key="" DocDate="" SPI="" SPIFio="" SPIPost="" DocNum="" DocType="" Sum="" Reason="" Artical="" Part="" BeginDate="" EndDate="">
+		 	<IP Key="" IPNum="" IPDate="" IPName="" IDType="" IDNum="" IDDate="" IDSubj="" IDSubjName="" IDSum="" IPDebt="" DebtorType="" DebtorName=""
+			    DebtorAdr="" DebtorINN="" DebtorKPP="" DebtorOGRN="" DebtorBirthDate="" DebtorBirthYear="" DebtorBirthPlace="" SPI="" SPIFio=""/>
+		</ProcDoc>
+		<ExtQuery Key="" IPKey="" IDKey="" IPNum=""/>
+		<Answer Key="" IPKey="">
+			<AnswerDoc DocKey="" IPKey="" DocDate="" SPI="" SPIFio="" SPIPost="" DocNum="" DocType="" Counterpart="" Reason="" Artical="" Part=""/>
+			<AnswerSum Key="" IPKey="" AccDate="" DocType="" DocDate="" DocNum="" RegType="" DestType=""/>
+		</Answer>
+		<ExtDebtFix Key="" IDNum="" IDDate="" DebtorBirthDate="" DebtorINN="" DebtorKPP="" DebtorAdr="" PaySum="" PDDate="" PDNum=""/>
+		<RecallDoc Key="" DocDate="" SPI="" SPIFio="" SPIPost="" ClaimerType="" ClaimerName="" OrganSignPost="" OrganSignFIO="" IDType="" IDNum="" IDDate=""
+					DebtorType="" DebtorName="" DebtorAdr="" DebtorBirthDate="" DebtorBirthPlace="" DebtorINN="" DebtorKPP="" DebtorNo="" Subj="" IDRecall="">
+			<Data Key="" ActDate="" DebtorName="">
+				<Identification TypeDoc="" SerDoc="" NumDoc="" IssuedDoc="" DateDoc="" CodeDep="" FIODoc=""/>
+				<Address StrAddr=""/>
+				<SvedRab NaimOrg="" AdresJ="" AdresF=""/>
+				<SvedRuc NameRuc="" AddressRuc="" TelRuc="" NameBux="" AddressBux="" TelBux=""/>
+				<SvedDoxod DataDox="" SumDox=""/>
+				<DebtorState State=""/>	
+			</Data>
+		</RecallDoc>
+		<TMessage KeyMess="" TypeDoc="" KeyDoc="" SpecStr="" DateMess="" MessCod=""/>
+</DataBlock>
